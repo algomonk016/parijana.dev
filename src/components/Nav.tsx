@@ -45,10 +45,9 @@ export function Nav() {
   return (
     <nav className={`nav${scrolled ? ' scrolled' : ''}`} id="nav">
       <div className="nav__inner">
-        <a href="/" className="nav__logo" aria-label="Parijana home">
-          <span className="nav__logo-mark">P</span>
-          <span className="nav__logo-text">parijana</span>
-        </a>
+          <a href="/" className="nav__logo" aria-label="Parijana home">
+            <img src="/logos/logo-dark.svg" alt="Parijana" />
+          </a>
         <ul className={`nav__links${menuOpen ? ' open' : ''}`} role="list">
           {navLinks.map(link => (
             <li key={link.label}>

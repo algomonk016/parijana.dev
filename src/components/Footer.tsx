@@ -34,8 +34,8 @@ export function Footer() {
         <div className="footer__inner">
           <div className="footer__brand">
             <a href="/" className="footer__logo" aria-label="Parijana home">
-              <span className="nav__logo-mark">P</span>
-              <span className="nav__logo-text">parijana</span>
+              <img src="/favicon/favicon.svg" alt="" height="28" />
+              <span>parijana</span>
             </a>
             <p className="footer__tagline">Building thoughtful software.</p>
           </div>

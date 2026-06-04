@@ -49,7 +49,7 @@ html {
   --ease-in-out:  cubic-bezier(0.45, 0, 0.55, 1);
 
   --container:    1160px;
-  --nav-h:        64px;
+  --nav-h:        100px;
 }
 
 body {
@@ -136,20 +136,10 @@ body {
   letter-spacing: -.01em;
 }
 
-.nav__logo-mark {
-  display: grid;
-  place-items: center;
-  width: 30px; height: 30px;
-  border-radius: 8px;
-  background: linear-gradient(135deg, var(--accent) 0%, color-mix(in srgb, var(--accent) 60%, transparent) 100%);
-  color: #0B0D10;
-  font-weight: 700;
-  font-size: 15px;
-}
-
-.nav__logo-text {
-  font-size: 15px;
-  font-weight: 500;
+.nav__logo img {
+  display: block;
+  height: 60px;
+  width: auto;
 }
 
 .nav__links {
