@@ -1,0 +1,34 @@
+<svg width="320" height="80" viewBox="0 0 320 80" role="img" xmlns="http://www.w3.org/2000/svg">
+  <title>Parijana — dark variant wordmark</title>
+  <desc>Parijana wordmark on dark background with teal accent.</desc>
+
+  <rect width="320" height="80" rx="10" fill="#0B0D10"/>
+
+  <!-- P mark -->
+  <g transform="translate(16, 16)">
+    <rect x="0" y="0" width="28" height="42" rx="4" fill="none" stroke="#64FFDA" stroke-width="1.5"/>
+    <path d="M5 7 h10 a8.5 8.5 0 0 1 0 17 h-10 z" fill="#64FFDA"/>
+    <line x1="5" y1="7" x2="5" y2="35" stroke="#0B0D10" stroke-width="2" stroke-linecap="round"/>
+  </g>
+
+  <!-- parijana -->
+  <text
+    x="54"
+    y="52"
+    font-family="'Fraunces', 'Georgia', serif"
+    font-style="italic"
+    font-weight="300"
+    font-size="38"
+    letter-spacing="-1.5"
+    fill="#E8EAED">parijana</text>
+
+  <!-- .dev -->
+  <text
+    x="236"
+    y="52"
+    font-family="'Inter', system-ui, sans-serif"
+    font-weight="400"
+    font-size="14"
+    letter-spacing="-0.2"
+    fill="#64FFDA">.dev</text>
+</svg>
