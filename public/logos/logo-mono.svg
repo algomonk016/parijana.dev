@@ -1,0 +1,32 @@
+<svg width="300" height="64" viewBox="0 0 300 64" role="img" xmlns="http://www.w3.org/2000/svg">
+  <title>Parijana — monochrome wordmark</title>
+  <desc>Parijana wordmark in single color, suitable for any background.</desc>
+
+  <!-- P mark -->
+  <g transform="translate(0, 10)">
+    <rect x="0" y="0" width="26" height="40" rx="3.5" fill="none" stroke="currentColor" stroke-width="1.5"/>
+    <path d="M5 7 h9 a8 8 0 0 1 0 16 h-9 z" fill="currentColor"/>
+  </g>
+
+  <!-- parijana -->
+  <text
+    x="36"
+    y="46"
+    font-family="'Fraunces', 'Georgia', serif"
+    font-style="italic"
+    font-weight="300"
+    font-size="36"
+    letter-spacing="-1.4"
+    fill="currentColor">parijana</text>
+
+  <!-- .dev -->
+  <text
+    x="213"
+    y="46"
+    font-family="'Inter', system-ui, sans-serif"
+    font-weight="400"
+    font-size="13"
+    letter-spacing="-0.2"
+    fill="currentColor"
+    opacity="0.45">.dev</text>
+</svg>
